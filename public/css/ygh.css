@@ -1,0 +1,425 @@
+body {
+	font-family: arial, helvetica;
+	background-image:url(../verso.jpg);
+	background-size: 3%;
+	background-repeat:repeat;	
+	background-attachment: fixed;
+	color: #191970;
+	: -1px 1px white,1px -1px white,1px 1px white,-1px -1px white;
+	font-size:25px;
+	font-weight: bolder;
+	
+	
+
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+div {
+	white-space: nowrap;
+	overflow: ;	
+}
+#contener {
+	font-family: arial, helvetica;
+	background-image:url(../fotos-yugioh/back1.png);
+	background-size: 100%;
+	background-repeat:repeat;	
+	background-attachment: ;
+	background-position: ;
+	margin: 0px auto 0px auto;
+	border: ;
+	width: 1100px;
+	overflow: hidden;
+	position: ;
+	background-color: #a0a0ff;
+	
+}
+
+.menu {
+	height:;
+	width:;
+	background-color: white;
+	list-style: none;
+	border: 3px solid black;
+	float: ;
+	position:fixed;
+	z-index:10;
+	margin:0 auto 0 48px;
+	
+}
+.menu li {
+	position: relative;
+	float: left;
+	border-right: 1px solid #c0c0c0;
+	
+}
+.menu li a {
+	color: #333;
+	text-decoration: none;
+	padding: 5px 10px;
+	display:block;
+	
+}
+.menu li a:hover {
+	background: #333;
+	color: #fff;
+	-moz-box-shadow:0 3px 10px 0 #ccc;
+	-webkit-box-shadow:0 3px 10px 0 #ccc;
+	text-shadow: 0px 0px 5px #fff;
+	
+}
+.menu li ul{
+	position: absolute;
+	top: 25px;
+	left: 0;
+	background-color:white;
+	display: none;
+	
+	
+}
+.menu li:hover ul, .menu li.over ul{
+	display: block;
+	
+	
+}
+.menu li ul li{
+	border: 1px solid #c0c0c0;
+	display:block;
+	width: 200px;
+	
+}
+
+#camp {
+	max-width: 100%;
+	min-width: 500px;
+	width: 100% ;
+	height:15px ;
+	white-space: nowrap;
+	position:fixed;
+	border: 2px solid white ;
+	background-color : black ;	
+	text-align: center;
+	overflow: ;
+	
+}
+.buscar {
+
+	width: 50%;
+	height: 30px;
+	
+	border: 2px solid black;
+	float: ;
+	position: ;
+}
+.buscar1 {
+	width: 40px;
+	height: 30px;
+	margin: 0 -5px ;
+	float: ;
+}
+#title {
+	
+	
+	background-image:url(../fotos-yugioh/cab.jpg);
+	background-size: 100%  ;
+	background-repeat:no-repeat;
+	background-position:0px -200px;
+	text-align: center;
+
+	font-size: 70px;
+	text-shadow: -3px 3px black,3px -3px black,3px 3px black,-3px -3px black;
+	color: #ffd700;
+	border: 5px solid black;
+	
+	width : 99%;
+	height: 175px;
+	position: ;
+	margin: 28px auto 0px auto;
+	
+}
+.title{
+	padding-top: 100px;
+	
+}
+#cx1 {
+	border: 5px solid black;
+	background-color : #c0c0ff;
+	width : 900px;
+	height: ;
+	margin: 25px auto;	
+	overflow: hidden;
+	position: relative;
+}
+#eventos {
+	
+	background-image:url(../fotos-yugioh/eventos.jpg);
+	background-repeat:;
+	background-size:100%;
+	background-attachment: ;
+	background-position: 0px -10px;
+	overflow: auto;
+	background-color:;
+	height:250px;
+	width: 100%;
+	border-top: 5px solid black;
+	border-bottom:5px solid black;	
+}
+#borda {
+	border-bottom:2px solid green;
+	border-top:2px solid green;
+	color: #00ff00;
+	text-shadow: no;
+	width: 70%;
+	margin: 200px 0px 0 30px;
+	padding-left:50px;
+	position: relative;
+	background-color: #00000090;
+	
+
+}
+
+#scroll {
+	overflow: auto;	
+	background-color:;
+	position: ;
+	border-bottom:5px solid black;
+	border-top: 5px solid black;
+	
+
+}
+#campeao {
+	position:;
+	width:3080px;	
+	height:300px ;
+	background-color: black;
+	overflow: hidden;
+	
+	
+	
+}
+#ide {
+	background-image: url(../fotos-yugioh/gm.png);
+	background-position: 50% 20%;
+	background-color: white;
+	width: 300px;
+	height: 300px;
+	border: 3px solid black;
+	position: relative;
+	float: left;
+	
+}
+#ide span {
+	position: absolute;
+	border: 1px solid black;
+	font-size: 18px;
+	font-weight: bolder;
+	
+}
+#resp {
+	background-color: #00000080;
+	left: 120px;
+	width: 160px;
+	color :white;
+	margin:180px 0;
+}
+#per {
+	background-color: #00000080;
+	margin:180px 0;
+	left: 10px;
+	width: 90px;
+	color: white;
+}
+
+.ouro {
+	width: 100px;
+	left: 180px;
+	position: absolute;
+	
+}
+#ouro {
+	top: 70px;
+	left: 200px;
+	width: 160px;
+	color :silver;
+	width: 100px;
+	background-color: #000000;
+	border: 10px solid green;
+	
+}
+
+.gm {
+	width: 160px;
+	height: 160px;
+	position: absolute;
+	border: 1px solid black;
+	left: 10px;
+}
+
+
+#fotos {
+	position:relative ;	
+	margin: 0 0 0 0;
+}		
+#fotos img {
+	border: 5px solid black;
+	height: 200px;
+	cursor: zoom-in;
+	position: ;
+	margin: 0 0 0 0;
+	
+}
+.I1:hover {
+		transform: scale(2.1) translatey(50px) translatex(95px);
+
+}
+.I2:hover{
+	transform: scale(2.1) translatey(-50px) translatex(95px);
+
+}
+.II1:hover {
+	transform: scale(2.1) translatey(50px) translatex(0px);
+	
+	
+}
+.II2:hover {
+	transform: scale(2.1) translatey(-50px) translatex(0px);
+	
+	
+}
+.end1:hover {
+		transform: scale(2.1) translatey(50px) translatex(0px);
+
+}
+.end2:hover {
+	transform: scale(2.1) translatey(-53px) translatex(-85px);
+	
+	
+	
+}
+#fotos img:hover {
+	border: 2px solid blue;
+	position:relative;
+	
+	
+	
+}
+
+#info {
+	overflow: ;
+	background-color:;
+	height:;
+	color:blue;
+
+	position: ;
+	border-top: 5px solid black;
+
+	
+}
+#cx2 {
+	
+	
+	border: 5px solid black;
+	background-color : #c0c0ff;
+	width : 900px;
+	height: ;
+	margin: 25px auto;	
+	overflow: hidden;
+	position: relative;
+}
+
+	
+.banlist{
+	overflow: hidden;
+	position: relative;
+	height:900px;
+	width: 98%;
+	border: 5px solid black;
+	left: 5px;
+		
+	
+	
+	
+}
+.ban {
+	width:100%;
+	height: 100%;
+	position: absolute;
+	opacity: 0;
+	animation-name:animacao;
+	animation-duration:40s;
+	animation-iteration-count: infinite;
+} 
+.ban:nth-child(1){}
+.ban:nth-child(2){
+	animation-delay: 20s;
+}
+
+
+@keyframes animacao {
+	
+	0% {
+		opacity: 0.9;		
+	}
+	25% {
+		opacity: 1;
+		transform:scale(1.1,1.1);	
+	}
+	50% {
+		opacity: 0.8;
+	}
+	50% {
+		opacity: 1;
+	}
+		
+}
+borda1 {
+	border-bottom:2px solid green;
+	border-top:2px solid green;
+	color: #00ff00;
+	text-shadow: no;
+	width: 70%;
+	margin: 890px 0px 0 30px;
+	padding-left:50px;
+	position: relative;
+	background-color: #00000090;
+	
+}
+#links {
+	
+	
+	
+}
+#final {
+	background-position: bottom;
+	background-image:url(../fotos-yugioh/enD.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px -30px ;
+	background-size: 100%;
+	width: 99%;
+	height: 175px;
+	border: 3px solid black;
+	top: 1500px;
+	margin: 25px auto 25px auto;
+}
+#link {
+	position: relative ;
+	top: ;
+	left: 10px;
+	background-color: #ffffff50;
+	width: 200px;
+	color: black;
+	
+}
+
+#versao {
+	position: relative ;
+	top: 110px;
+	left: 950px;
+	background-color: #ffffff50;
+	width: 200px;
+	color: black;
+}
+#sobre {
+	color: #00000000;
+}
